@@ -2,6 +2,7 @@
   <div>
     <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
@@ -28,6 +29,8 @@ html {
 body {
   background: var(--background-1);
 }
+
+// БЛОКИ
 
 .container {
   max-width: 1380px; // +100px для padding
@@ -60,6 +63,15 @@ button {
 
   &:hover {
     transform: scale(1.1);
+  }
+}
+
+// ТЕКСТОВЫЕ СТИЛИ
+p {
+  color: var(--text-2);
+
+  &.other {
+    color: var(--text-3);
   }
 }
 
