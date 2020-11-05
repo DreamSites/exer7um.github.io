@@ -41,14 +41,15 @@ header {
       position: relative;
       display: flex;
       justify-content: center;
-      transition: all 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out;
 
       hr {
-        border: 0 solid var(--main);
+        border: 1px solid var(--main);
         width: 0;
         position: absolute;
         bottom: -4px;
-        transition: all 0.2s ease-in-out;
+        transition: width 0.2s ease-in-out;
+        opacity: 0;
       }
 
       &.nuxt-link-active {
@@ -56,8 +57,12 @@ header {
 
         hr {
           width: 25px;
-          border-width: 1px;
+          opacity: 1;
         }
+      }
+
+      &:hover {
+        color: var(--main);
       }
 
       &:last-child {
