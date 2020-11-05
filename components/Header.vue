@@ -1,9 +1,69 @@
 <template>
-  <div>This is Header!</div>
+  <header class="container">
+    <nav>
+      <NuxtLink class="nav-item" to="/" exact>
+        Главная
+        <hr />
+      </NuxtLink>
+      <NuxtLink class="nav-item" to="/projects"
+        >Проекты
+        <hr />
+      </NuxtLink>
+      <NuxtLink class="nav-item" to="/tools"
+        >Инструменты
+        <hr
+      /></NuxtLink>
+      <div class="nav-item">Обо мне</div>
+    </nav>
+    <button class="default">Написать мне 👋🏻</button>
+  </header>
 </template>
 
 <script>
 export default {}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+
+    .nav-item {
+      margin-right: 40px;
+      color: var(--text-2);
+      text-decoration: none;
+      line-height: 30px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      transition: all 0.2s ease-in-out;
+
+      hr {
+        border: 0 solid var(--main);
+        width: 0;
+        position: absolute;
+        bottom: -4px;
+        transition: all 0.2s ease-in-out;
+      }
+
+      &.nuxt-link-active {
+        color: var(--main);
+
+        hr {
+          width: 25px;
+          border-width: 1px;
+        }
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+</style>

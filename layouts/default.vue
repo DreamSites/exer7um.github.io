@@ -28,4 +28,37 @@ html {
 body {
   background: var(--background-1);
 }
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  height: 50px;
+  outline: none;
+  padding: 0 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: 'Gill Sans';
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &.default {
+    background: var(--main);
+    color: #fff;
+    border: none;
+  }
+
+  &.outlined {
+    background: transparent;
+    color: var(--main);
+    border: 2px solid var(--main);
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
 </style>
