@@ -71,4 +71,24 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 700px) {
+  header {
+    justify-content: center;
+
+    button {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 80px;
+
+    nav .nav-item {
+      margin-right: 20px;
+    }
+  }
+}
 </style>

@@ -30,9 +30,10 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1380px; // +100px для padding
   width: 100%;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 button {
@@ -59,6 +60,22 @@ button {
 
   &:hover {
     transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 0 15px;
   }
 }
 </style>
