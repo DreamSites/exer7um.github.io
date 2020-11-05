@@ -1,0 +1,17 @@
+:root {
+  --main: #195af5;
+  --background-1: #ffffff;
+  --background-2: #ffffff;
+  --text-1: #000000;
+  --text-2: rgba(0, 0, 0, 0.7);
+  --text-3: rgba(0, 0, 0, 0.4);
+}
+
+.dark-mode {
+  --main: #4d81ff;
+  --background-1: #222222;
+  --background-2: #333333;
+  --text-1: #ffffff;
+  --text-2: rgba(255, 255, 255, 0.7);
+  --text-3: rgba(255, 255, 255, 0.4);
+}
