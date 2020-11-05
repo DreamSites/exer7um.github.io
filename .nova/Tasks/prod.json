@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nyarn build"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nyarn start"
+    }
+  },
+  "identifier" : "86F36038-C693-4610-948D-E40D5BB4D60A"
+}
