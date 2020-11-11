@@ -3,30 +3,31 @@
     <div class="container">
       <Nav :block="'footer'" />
       <div class="social-links">
-        <a class="link" href="https://t.me/exer7um/">
+        <a class="link" href="https://t.me/exer7um/" target="_blank">
           <img
             src="@/assets/social/Telegram.svg"
             alt="TG"
             style="padding-right: 4px"
           />
         </a>
-        <a class="link" href="https://twitter.com/exer7um/">
+        <a class="link" href="https://twitter.com/exer7um/" target="_blank">
           <img src="@/assets/social/Twitter.svg" alt="TW" />
         </a>
-        <a class="link" href="https://github.com/exer7um/">
+        <a class="link" href="https://github.com/exer7um/" target="_blank">
           <img src="@/assets/social/GitHub.svg" alt="GH" />
         </a>
-        <a class="link" href="https://vk.com/exer7um/">
+        <a class="link" href="https://vk.com/exer7um/" target="_blank">
           <img src="@/assets/social/VK.svg" alt="VK" />
         </a>
       </div>
-      <a href="https://nuxtjs.org/" class="nuxt">
+      <a href="https://nuxtjs.org/" class="nuxt" target="_blank">
         <img src="@/assets/Nuxt.svg" alt="Built with Nuxt.js" />
       </a>
       <div class="signature">
         <p class="copyright other">© 2020 exer7um</p>
         <p class="link other">
-          Made by <a href="https://exer7um.github.io">exer7um</a>
+          Made by
+          <a href="https://exer7um.github.io" target="_blank">exer7um</a>
         </p>
       </div>
     </div>

@@ -81,6 +81,13 @@ p {
   }
 }
 
+@media screen and (max-width: 1010px) {
+  // ТЕКСТОВЫЕ СТИЛИ
+  h1 {
+    font-size: 40px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .container {
     padding: 0 30px;
@@ -92,6 +99,7 @@ p {
     font-size: 16px;
   }
 
+  // БЛОКИ
   .container {
     padding: 0 15px;
   }
@@ -100,6 +108,11 @@ p {
     height: 44px;
     font-size: 16px;
     padding: 0 25px;
+  }
+
+  // ТЕКСТОВЫЕ СТИЛИ
+  p {
+    line-height: 28px;
   }
 }
 </style>
