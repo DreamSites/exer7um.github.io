@@ -48,17 +48,16 @@ button {
   font-family: 'Gill Sans';
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  border: none;
 
   &.default {
     background: var(--main);
     color: #fff;
-    border: none;
   }
 
-  &.outlined {
-    background: transparent;
+  &.transparent {
+    background: var(--main-transparent);
     color: var(--main);
-    border: 2px solid var(--main);
   }
 
   &:hover {

@@ -1,5 +1,6 @@
 :root {
   --main: #195af5;
+  --main-transparent: rgba(25, 90, 245, 0.1);
   --background-1: #ffffff;
   --background-2: #ffffff;
   --text-1: #000000;
@@ -10,6 +11,7 @@
 
 .dark-mode {
   --main: #4d81ff;
+  --main-transparent: rgba(77, 129, 255, 0.1);
   --background-1: #222222;
   --background-2: #333333;
   --text-1: #ffffff;

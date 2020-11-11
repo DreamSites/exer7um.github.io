@@ -24,7 +24,7 @@
         <img src="@/assets/Nuxt.svg" alt="Built with Nuxt.js" />
       </a>
       <div class="signature">
-        <p class="copyright other">© 2020 exer7um.io</p>
+        <p class="copyright other">© 2020 exer7um</p>
         <p class="link other">
           Made by <a href="https://exer7um.github.io">exer7um</a>
         </p>

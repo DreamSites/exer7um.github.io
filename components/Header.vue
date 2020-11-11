@@ -1,7 +1,7 @@
 <template>
   <header class="container">
     <Nav :block="'header'" />
-    <button class="default">Написать мне 👋🏻</button>
+    <button class="transparent">Написать мне 👋🏻</button>
   </header>
 </template>
 
