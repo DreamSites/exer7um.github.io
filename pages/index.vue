@@ -1,5 +1,7 @@
 <template>
-  <div class="container"></div>
+  <main class="container">
+    <Hero />
+  </main>
 </template>
 
 <script>

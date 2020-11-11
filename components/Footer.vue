@@ -7,7 +7,7 @@
           <img
             src="@/assets/social/Telegram.svg"
             alt="TG"
-            style="padding-right: 3px"
+            style="padding-right: 4px"
           />
         </a>
         <a class="link" href="https://twitter.com/exer7um/">

@@ -66,8 +66,15 @@ button {
 }
 
 // ТЕКСТОВЫЕ СТИЛИ
+h1 {
+  color: var(--text-1);
+  font-family: 'Gill Sans';
+  font-size: 56px;
+}
+
 p {
   color: var(--text-2);
+  line-height: 30px;
 
   &.other {
     color: var(--text-3);
@@ -87,6 +94,12 @@ p {
 
   .container {
     padding: 0 15px;
+  }
+
+  button {
+    height: 44px;
+    font-size: 16px;
+    padding: 0 25px;
   }
 }
 </style>
