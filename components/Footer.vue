@@ -24,10 +24,10 @@
         <img src="@/assets/Nuxt.svg" alt="Built with Nuxt.js" />
       </a>
       <div class="signature">
-        <p class="copyright other">© 2020 exer7um</p>
+        <p class="copyright other">© 2020 exer7um.github.io</p>
         <p class="link other">
-          Made by
-          <a href="https://exer7um.github.io" target="_blank">exer7um</a>
+          Made with ❤️ by
+          <a href="https://exer7um.github.io" target="_blank">ExEr7um</a>
         </p>
       </div>
     </div>
@@ -82,17 +82,33 @@ footer {
     .signature {
       display: flex;
       font-size: 16px;
-      color: var(--text-2);
       margin-top: 30px;
 
-      p.link {
-        margin-left: 40px;
+      p {
+        &.other {
+          color: rgba(255, 255, 255, 0.7);
+        }
 
-        a {
-          color: #fff;
-          text-decoration: none;
+        &.link {
+          margin-left: 40px;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
         }
       }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  footer .container .signature {
+    flex-direction: column-reverse;
+
+    p.link {
+      margin-left: 0;
+      margin-bottom: 15px;
     }
   }
 }

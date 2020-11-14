@@ -1,6 +1,7 @@
 <template>
   <main class="container">
     <Hero />
+    <Projects />
   </main>
 </template>
 

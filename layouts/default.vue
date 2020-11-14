@@ -72,6 +72,12 @@ h1 {
   font-size: 56px;
 }
 
+h3 {
+  color: var(--text-1);
+  font-family: 'Gill Sans';
+  font-size: 18px;
+}
+
 p {
   color: var(--text-2);
   line-height: 30px;
@@ -111,6 +117,10 @@ p {
   }
 
   // ТЕКСТОВЫЕ СТИЛИ
+  h3 {
+    font-size: 16px;
+  }
+
   p {
     line-height: 28px;
   }
