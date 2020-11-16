@@ -46,7 +46,7 @@ export default {}
 
     .tool {
       filter: grayscale(100%);
-      opacity: 30%;
+      opacity: 0.3;
       cursor: pointer;
       transition: all 0.2s ease-in-out;
       width: 100px;
@@ -57,7 +57,7 @@ export default {}
 
       &:hover {
         filter: grayscale(0);
-        opacity: 100%;
+        opacity: 1;
         transform: scale(1.1);
       }
 
