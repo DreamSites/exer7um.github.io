@@ -49,6 +49,7 @@ button {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   border: none;
+  color: var(--text-1);
 
   &.default {
     background: var(--main);
@@ -70,6 +71,12 @@ h1 {
   color: var(--text-1);
   font-family: 'Gill Sans';
   font-size: 56px;
+}
+
+h2 {
+  color: var(--text-1);
+  font-family: 'Gill Sans';
+  font-size: 26px;
 }
 
 h3 {
@@ -119,6 +126,10 @@ p {
   // ТЕКСТОВЫЕ СТИЛИ
   h1 {
     font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 
   h3 {

@@ -3,22 +3,22 @@
     <h1>🛠 Инструменты</h1>
     <div class="tools">
       <NuxtLink class="tool" to="/tools">
-        <img src="@/assets/tools/HTML.svg" alt="" id="HTML" />
+        <img id="HTML" src="@/assets/tools/HTML.svg" alt="" />
       </NuxtLink>
       <NuxtLink class="tool" to="/tools">
-        <img src="@/assets/tools/CSS.svg" alt="" id="CSS" />
+        <img id="JavaScript" src="@/assets/tools/JavaScript.svg" alt="" />
       </NuxtLink>
       <NuxtLink class="tool" to="/tools">
-        <img src="@/assets/tools/JavaScript.svg" alt="" id="JavaScript" />
+        <img id="Vue" src="@/assets/tools/Vue.js.svg" alt="" />
       </NuxtLink>
       <NuxtLink class="tool" to="/tools">
-        <img src="@/assets/tools/Vue.js.svg" alt="" id="Vue" />
+        <img id="Sass" src="@/assets/tools/Sass.svg" alt="" />
       </NuxtLink>
       <NuxtLink class="tool" to="/tools">
-        <img src="@/assets/tools/Nuxt.js.svg" alt="" id="Nuxt" />
+        <img id="Nuxt" src="@/assets/tools/Nuxt.js.svg" alt="" />
       </NuxtLink>
       <NuxtLink class="tool" to="/tools">
-        <img src="@/assets/tools/Sketch.svg" alt="" id="Sketch" />
+        <img id="Sketch" src="@/assets/tools/Sketch.svg" alt="" />
       </NuxtLink>
     </div>
     <div class="learn-more">
@@ -62,11 +62,11 @@ export default {}
       }
 
       #HTML,
-      #CSS,
       #JavaScript {
         height: 100%;
       }
 
+      #Sass,
       #Vue,
       #Nuxt,
       #Sketch {
