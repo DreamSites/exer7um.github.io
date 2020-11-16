@@ -2,6 +2,7 @@
   <main class="container">
     <Hero />
     <Projects />
+    <Tools />
   </main>
 </template>
 

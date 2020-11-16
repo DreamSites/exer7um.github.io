@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="87px" viewBox="0 0 100 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Vue.js</title>
+    <g id="Вебсайт" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Цветные-инструменты" transform="translate(-779.000000, -55.000000)" fill-rule="nonzero">
+            <g id="Vue.js" transform="translate(779.000000, 55.000000)">
+                <g id="Group" transform="translate(50.036798, 43.181181) scale(-1, 1) rotate(-180.000000) translate(-50.036798, -43.181181) translate(0.290567, 0.000442)">
+                    <polygon id="Path" fill="#41B883" points="61.1095833 86.3614773 49.6608797 66.53167 38.212176 86.3614773 0.0863614773 86.3614773 49.6608797 0.494937121 99.2353978 86.3614773"></polygon>
+                    <polygon id="Path" fill="#34495E" points="61.1095833 86.3614773 49.6608797 66.53167 38.212176 86.3614773 19.9161688 86.3614773 49.6608797 34.8425633 79.4055906 86.3614773"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
