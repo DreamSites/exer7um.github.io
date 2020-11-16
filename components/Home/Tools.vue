@@ -12,7 +12,7 @@
         <img id="Vue" src="@/assets/tools/Vue.js.svg" alt="" />
       </NuxtLink>
       <NuxtLink class="tool" to="/tools">
-        <img id="Sass" src="@/assets/tools/Sass.svg" alt="" />
+        <img id="Sass" src="@/assets/tools/SASS.svg" alt="" />
       </NuxtLink>
       <NuxtLink class="tool" to="/tools">
         <img id="Nuxt" src="@/assets/tools/Nuxt.js.svg" alt="" />
