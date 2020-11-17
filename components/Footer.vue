@@ -103,12 +103,16 @@ footer {
 }
 
 @media (max-width: 500px) {
-  footer .container .signature {
-    flex-direction: column-reverse;
+  footer {
+    margin-top: 80px;
 
-    p.link {
-      margin-left: 0;
-      margin-bottom: 15px;
+    .container .signature {
+      flex-direction: column-reverse;
+
+      p.link {
+        margin-left: 0;
+        margin-bottom: 15px;
+      }
     }
   }
 }
