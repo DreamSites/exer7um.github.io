@@ -1,4 +1,6 @@
 # exer7um.github.io
+![Build and Deploy](https://github.com/ExEr7um/exer7um.github.io/workflows/Build%20and%20Deploy/badge.svg)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7a6c345d16f044aaad1e40412ef3b0b4)](https://www.codacy.com/gh/ExEr7um/exer7um.github.io/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ExEr7um/exer7um.github.io&amp;utm_campaign=Badge_Grade)
 
 ## Build Setup
 
