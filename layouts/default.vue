@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="under-construction">Сайт сейчас находится в разработке</div>
     <Header />
     <Nuxt />
     <Footer />
@@ -139,5 +140,16 @@ p {
   p {
     line-height: 28px;
   }
+}
+</style>
+
+<style lang="scss" scoped>
+.under-construction {
+  width: 100%;
+  height: 40px;
+  background: hsl(48, 100%, 67%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
