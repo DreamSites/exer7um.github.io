@@ -33,7 +33,25 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: [
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: 'AIzaSyCSA02-4NW4eQ7UpC6_P0otjYhe75zaZ6A',
+          authDomain: 'exer7um-firebase.firebaseapp.com',
+          databaseURL: 'https://exer7um-firebase.firebaseio.com',
+          projectId: 'exer7um-firebase',
+          storageBucket: 'exer7um-firebase.appspot.com',
+          messagingSenderId: '744949053020',
+          appId: '1:744949053020:web:3878dae05536d4d959d899',
+        },
+        services: {
+          firestore: true,
+        },
+      },
+    ],
+  ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},

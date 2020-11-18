@@ -2,35 +2,17 @@
   <div class="projects-container">
     <h1>💼 Проекты</h1>
     <div class="projects">
-      <div class="project">
+      <div
+        v-for="project in projects.slice(0, 3)"
+        :key="project.id"
+        class="project"
+      >
         <div class="logo-background"></div>
         <div class="content">
-          <h3>IO Interactive</h3>
-          <p class="text">Разработчик серии Hitman, я делал для них лендинг.</p>
+          <h3>{{ project.title }}</h3>
+          <p class="text">{{ project.description }}</p>
           <div class="additional-text">
-            <p class="other">08.05.20</p>
-            <NuxtLink to="/projects">Подробнее →</NuxtLink>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="logo-background"></div>
-        <div class="content">
-          <h3>IO Interactive</h3>
-          <p class="text">Разработчик серии Hitman, я делал для них лендинг.</p>
-          <div class="additional-text">
-            <p class="other">08.05.20</p>
-            <NuxtLink to="/projects">Подробнее →</NuxtLink>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="logo-background"></div>
-        <div class="content">
-          <h3>IO Interactive</h3>
-          <p class="text">Разработчик серии Hitman, я делал для них лендинг.</p>
-          <div class="additional-text">
-            <p class="other">08.05.20</p>
+            <p class="other">{{ project.date }}</p>
             <NuxtLink to="/projects">Подробнее →</NuxtLink>
           </div>
         </div>
@@ -45,7 +27,16 @@
 </template>
 
 <script>
-export default {}
+import { mapGetters } from 'vuex'
+
+export default {
+  computed: {
+    ...mapGetters(['projects']),
+  },
+  mounted() {
+    this.$store.dispatch('fetchFirebase')
+  },
+}
 </script>
 
 <style lang="scss" scoped>
@@ -77,7 +68,6 @@ export default {}
           line-height: 25px;
           margin-top: 15px;
           margin-bottom: 30px;
-          padding-right: 10px;
         }
 
         .additional-text {

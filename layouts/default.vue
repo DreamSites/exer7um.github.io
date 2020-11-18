@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="under-construction">Сайт сейчас находится в разработке</div>
+    <div class="under-construction">⚠️ Сайт сейчас находится в разработке</div>
     <Header />
     <Nuxt />
     <Footer />
@@ -147,7 +147,7 @@ p {
 .under-construction {
   width: 100%;
   height: 40px;
-  background: hsl(48, 100%, 67%);
+  background: hsl(48, 100%, 73%);
   display: flex;
   align-items: center;
   justify-content: center;
