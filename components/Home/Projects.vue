@@ -7,7 +7,9 @@
         :key="project.id"
         class="project"
       >
-        <div class="logo-background"></div>
+        <div class="logo-background" :style="{ background: project.bg }">
+          <img :src="project.logo" :alt="project.title" />
+        </div>
         <div class="content">
           <h3>{{ project.title }}</h3>
           <p class="text">{{ project.description }}</p>
@@ -58,7 +60,20 @@ export default {
       .logo-background {
         padding-top: 56.25%;
         position: relative;
-        background: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid var(--border);
+
+        img {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 100%;
+          max-width: 80%;
+          height: 100%;
+          max-height: 70%;
+        }
       }
 
       .content {
@@ -96,7 +111,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
   .projects-container .projects {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 50px;
@@ -108,7 +123,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
   .projects-container .projects {
     margin-top: 30px;
     grid-template-columns: 1fr 1fr;
@@ -121,7 +136,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 630px) {
+@media (max-width: 630px) {
   .projects-container .projects {
     grid-template-columns: 1fr;
     row-gap: 20px;
