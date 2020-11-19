@@ -7,6 +7,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    this.$store.dispatch('fetchFirebase')
+  },
+}
+</script>
+
 <style lang="scss">
 html {
   font-family: 'Gill Sans';
