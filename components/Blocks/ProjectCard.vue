@@ -18,7 +18,8 @@
 export default {
   props: {
     project: {
-      default: {},
+      // eslint-disable-line
+      default: () => {},
       type: Object,
     },
   },

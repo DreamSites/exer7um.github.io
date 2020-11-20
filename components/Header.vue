@@ -1,7 +1,9 @@
 <template>
   <header class="container">
     <Nav :block="'header'" />
-    <button class="transparent">Написать мне 👋🏻</button>
+    <NuxtLink to="/contact-me">
+      <button class="transparent">Написать мне 👋🏻</button>
+    </NuxtLink>
   </header>
 </template>
 

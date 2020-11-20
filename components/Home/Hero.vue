@@ -7,7 +7,9 @@
         дизайн. Стараюсь всегда всё делать идеально, перфекционист.
       </p>
       <div class="buttons">
-        <button class="default">Написать мне 👋🏻</button>
+        <NuxtLink to="/contact-me">
+          <button class="default">Написать мне 👋🏻</button>
+        </NuxtLink>
         <p class="other">или</p>
         <div class="social-links">
           <a class="link" href="https://t.me/exer7um/" target="_blank">

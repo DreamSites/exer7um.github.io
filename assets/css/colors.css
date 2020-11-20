@@ -9,6 +9,8 @@
   --transparent: #e6e6e6;
   --footer-background: var(--main);
   --border: #e6e5e5;
+  --placeholder: rgba(0, 0, 0, 0.2);
+  --input-bg: #f7f7f7;
 }
 
 .dark-mode {
@@ -22,4 +24,6 @@
   --transparent: #3b3b3b;
   --footer-background: var(--background-2);
   --border: #4d4d4d;
+  --placeholder: rgba(255, 255, 255, 0.2);
+  --input-bg: #292929;
 }

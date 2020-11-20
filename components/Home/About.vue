@@ -65,7 +65,9 @@
             </svg>
           </button>
         </a>
-        <button class="default">Написать мне 👋🏻</button>
+        <NuxtLink to="/contact-me">
+          <button class="default">Написать мне 👋🏻</button>
+        </NuxtLink>
       </div>
     </div>
   </div>

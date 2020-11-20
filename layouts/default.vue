@@ -75,6 +75,75 @@ button {
   }
 }
 
+.input-container {
+  position: relative;
+
+  input,
+  select,
+  textarea {
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    min-width: 300px;
+    padding: 12px 20px 0;
+    color: var(--text-2);
+    font-size: 18px;
+    background: var(--input-bg);
+    font-family: 'Gill Sans';
+
+    &:focus + label,
+    &:valid + label {
+      top: 5px;
+      transform: none;
+      font-size: 12px;
+    }
+  }
+
+  input {
+    height: 50px;
+
+    &:-webkit-autofill + label {
+      color: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  select {
+    height: 50px;
+  }
+
+  textarea {
+    resize: none;
+    padding-top: 20px;
+
+    & + label {
+      top: 15px;
+      transform: none;
+    }
+  }
+
+  label {
+    color: var(--placeholder);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
+  }
+
+  svg {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-25%);
+    pointer-events: none;
+
+    g g {
+      fill: var(--text-2);
+    }
+  }
+}
+
 // ТЕКСТОВЫЕ СТИЛИ
 h1 {
   color: var(--text-1);
