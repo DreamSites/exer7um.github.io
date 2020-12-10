@@ -23,7 +23,7 @@
     "core-js": "^3.8.1",
     "firebase": "^8.1.2",
     "node-sass": "^5.0.0",
-    "nuxt": "^2.14.10",
+    "nuxt": "^2.14.11",
     "sass-loader": "^10.1.0"
   },
   "devDependencies": {
