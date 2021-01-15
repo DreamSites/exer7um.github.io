@@ -21,7 +21,7 @@
   "dependencies": {
     "@nuxtjs/firebase": "^7.3.0",
     "core-js": "^3.8.2",
-    "firebase": "^8.2.2",
+    "firebase": "^8.2.3",
     "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
     "sass-loader": "^10.1.1"
